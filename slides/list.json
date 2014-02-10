@@ -1,1 +1,19 @@
-["index.md"]
+[
+    "index.md",
+    [
+      "html4to5.md",
+      "html4to5-new.md",
+      "html4to5-tags.md",
+      "html4to5-done.md"
+    ],
+    "typography.md",
+    "inputs.md",
+    "deprecated.md",
+    "degredation.md",
+    "accessibility.md",
+    [
+      "tools.md",
+      "tools-preprocess.md"
+    ],
+    "future.md"
+]
