@@ -34,8 +34,8 @@ html * {
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fdf6e3;
-  background-color: #fdf6e3; }
+  background: white;
+  background-color: white; }
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -59,7 +59,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #586e75;
+  color: #0c5e97;
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
@@ -164,8 +164,8 @@ body {
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fdf6e3;
-  background-color: #fdf6e3; }
+  background: white;
+  background-color: white; }
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -189,7 +189,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #586e75;
+  color: #0c5e97;
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
