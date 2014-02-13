@@ -6,6 +6,6 @@ An API that exposes the **session history** and allows scripts to update the doc
 
 An API for **printing** the document (print()).
 
-The **Window** object has been defined.
+The [**Window**](https://developer.mozilla.org/en/docs/Web/API/Window) object has been defined.
 
 **Fullscreen** API
