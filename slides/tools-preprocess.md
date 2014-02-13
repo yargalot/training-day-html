@@ -2,25 +2,4 @@
 
 - [Jade](http://jade-lang.com/)
 - [Haml](http://haml.info/)
-
-
-####Examples
-
-    doctype html
-    html(lang="en")
-      head
-        title= pageTitle
-        script(type='text/javascript').
-          if (foo) {
-             bar(1 + 5)
-          }
-      body
-        h1 Jade - node template engine
-        #container.col
-          if youAreUsingJade
-            p You are amazing
-          else
-            p Get on it!
-          p.
-            Jade is a terse and simple templating language with a
-            strong focus on performance and powerful features.
+- [Markdown](https://daringfireball.net/projects/markdown/syntax)

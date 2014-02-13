@@ -11,13 +11,22 @@
     "typography.md",
     "inputs.md",
     "attributes.md",
-    "apis.md",
+    [
+      "apis.md",
+      "apis-cont.md",
+      "apis-resources.md"
+    ],
     "deprecated.md",
-    "degredation.md",
+    [
+      "degredation.md",
+      "degredation-example.md",
+      "degredation-css.md"
+    ],
     "accessibility.md",
     [
       "tools.md",
-      "tools-preprocess.md"
+      "tools-preprocess.md",
+      "tools-preprocess-example.md"
     ],
     "future.md"
 ]
