@@ -1,4 +1,4 @@
-## Maintence
+## Maintenence
 
 - Seperation of Jade files - footer, header
 - Proper templating

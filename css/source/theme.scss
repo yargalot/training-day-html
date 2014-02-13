@@ -62,6 +62,11 @@
 // See ../../bower_components/reveal.js/css/theme/README.md
 // for further explanations on how reveal.js themes work.
 
+img {
+  border:none !important;
+  box-shadow: none !important;
+}
+
 .block-logo {
   
   $width: 314px /2;
