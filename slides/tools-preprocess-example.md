@@ -1,4 +1,4 @@
-#Examples
+###Examples
 
     doctype html
     html(lang="en")

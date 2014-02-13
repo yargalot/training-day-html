@@ -24,6 +24,11 @@
     ],
     "accessibility.md",
     [
+      "semantics.md",
+      "semantics-do.md",
+      "semantics-dont.md"
+    ],
+    [
       "tools.md",
       "tools-preprocess.md",
       "tools-preprocess-example.md"

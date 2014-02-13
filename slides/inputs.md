@@ -1,5 +1,6 @@
 ## Inputs
 
-- Time
-- Date
-- W/e
+    <form>
+      <input id="q" required>
+      <input type="submit" value="Search">
+    </form>
