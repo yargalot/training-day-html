@@ -1,6 +1,16 @@
-## Inputs
+## I ❤ forms
+New ```<input>``` types
 
-    <form>
-      <input id="q" required>
-      <input type="submit" value="Search">
-    </form>
+- tel
+- search
+- url
+- email
+- datetime
+- date
+- month
+- week
+- time
+- datetime-local
+- number
+- range
+- color

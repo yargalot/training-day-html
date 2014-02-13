@@ -203,7 +203,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #268bd2;
+  color: #d97600;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -218,7 +218,7 @@ body {
 
 .reveal .roll span:after {
   color: #fff;
-  background: #1a6091; }
+  background: #8c4c00; }
 
 /*********************************************
  * IMAGES
@@ -236,7 +236,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #268bd2;
+  border-color: #d97600;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -244,19 +244,19 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #268bd2; }
+  border-right-color: #d97600; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #268bd2; }
+  border-left-color: #d97600; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #268bd2; }
+  border-bottom-color: #d97600; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #268bd2; }
+  border-top-color: #d97600; }
 
 .reveal .controls div.navigate-left.enabled:hover {
   border-right-color: #78b9e6; }
@@ -277,7 +277,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #268bd2;
+  background: #d97600;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -288,7 +288,7 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #268bd2; }
+  color: #d97600; }
 
 .block-logo {
   width: 157px;
@@ -298,3 +298,28 @@ body {
   position: absolute;
   left: 25px;
   bottom: 25px; }
+
+p.marquee {
+  -webkit-animation-name: marquee;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap; }
+
+@-webkit-keyframes marquee {
+  0% {
+    text-indent: 95%; }
+
+  100% {
+    text-indent: -20%; } }
+
+.blink {
+  -webkit-animation: blink 1s steps(5, start) infinite; }
+
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden; } }

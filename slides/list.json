@@ -1,21 +1,33 @@
 [
+    "first-up.md",
     "index.md",
     [
       "html4to5.md",
       "html4to5-new.md",
       "html4to5-tags.md",
-      "html4to5-inputs.md",
+      "html4to5-demo.md",
       "html4to5-other.md"
     ],
-    "typography.md",
-    "inputs.md",
+    [
+      "typography.md",
+      "typography-figure.md"
+    ],
+    [
+      "inputs.md",
+      "inputs-continued.md",
+      "inputs-validation.md"
+    ],
     "attributes.md",
     [
       "apis.md",
       "apis-cont.md",
       "apis-resources.md"
     ],
-    "deprecated.md",
+    [
+      "deprecated.md",
+      "deprecated-cont.md",
+      "deprecated-blink.md"
+    ],
     [
       "degredation.md",
       "degredation-example.md",
@@ -31,7 +43,15 @@
       "tools.md",
       "tools-preprocess.md",
       "tools-preprocess-example.md",
-      "tools-preprocess-markdown.md"
+      "tools-preprocess-markdown.md",
+      "tools-preprocess-codetime.md"
     ],
-    "future.md"
+    [
+      "maintanence.md",
+      "maintanence-what.md",
+      "maintanence-also.md",
+      "maintanence-indent.md"
+    ],
+    "future.md",
+    "resources.md"
 ]

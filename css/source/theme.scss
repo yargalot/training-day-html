@@ -36,7 +36,7 @@
   $headingColor: #0E7ABF;
   $heading1TextShadow: none;
 // $mainFont: 'Open Sans', sans-serif;
-// $linkColor: #ed1dff;
+  $linkColor: #d97600;
 // $linkColorHover: $linkColor;
 // $headingFont: 'Montserrat', Impact, sans-serif;
 // $headingTextShadow: none;
@@ -76,4 +76,36 @@
   position:absolute;
   left:25px;
   bottom:25px;
+}
+
+
+p.marquee{
+    -webkit-animation-name: marquee;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration:10s;
+    -webkit-animation-iteration-count: infinite;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+}
+
+@-webkit-keyframes marquee{
+    0%{
+        text-indent: 95%;
+}
+    100%{
+        text-indent: -20%;  
+    }
+}
+
+.blink {
+    -webkit-animation: blink 1s steps(5, start) infinite;
+}
+
+@-webkit-keyframes blink {
+    to {
+        visibility: hidden;
+    }
 }
