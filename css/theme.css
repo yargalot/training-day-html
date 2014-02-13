@@ -290,6 +290,10 @@ body {
 .reveal .slide-number {
   color: #d97600; }
 
+img {
+  border: none !important;
+  box-shadow: none !important; }
+
 .block-logo {
   width: 157px;
   height: 61px;

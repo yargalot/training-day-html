@@ -10,7 +10,8 @@
     ],
     [
       "typography.md",
-      "typography-figure.md"
+      "typography-figure.md",
+      "typography-should.md"
     ],
     [
       "inputs.md",
@@ -31,9 +32,13 @@
     [
       "degredation.md",
       "degredation-example.md",
-      "degredation-css.md"
+      "degredation-css.md",
+      "degredation-shiv.md"
     ],
-    "accessibility.md",
+    [
+      "accessibility.md",
+      "accessibility-why.md"
+    ],
     [
       "semantics.md",
       "semantics-do.md",
