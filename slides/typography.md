@@ -1,6 +1,6 @@
 ## Typing
 
-Heading tags importance are reset when they are place in a  ```section``` or an ```article``` tag
+Heading tags importance are reset when they are placed in a  ```section``` or an ```article``` tag
 
     <h1>Page Heading</h1>
 
