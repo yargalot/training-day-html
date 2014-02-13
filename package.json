@@ -10,7 +10,10 @@
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-jshint": "~0.7.0",
     "load-grunt-tasks": "~0.2.0",
-    "grunt-coffeelint": "0.0.7"
+    "grunt-coffeelint": "0.0.7",
+    "grunt-shell": "~0.6.4",
+    "grunt-build-gh-pages": "~0.1.7",
+    "install": "~0.1.7"
   },
   "engines": {
     "node": ">=0.8.0"

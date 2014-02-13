@@ -69,6 +69,11 @@ module.exports = (grunt) ->
 
             all: ['js/*.js']
 
+
+        build_gh_pages:
+            gh_pages:
+                dist: 'dist'
+
         copy:
 
             dist:
@@ -128,6 +133,7 @@ module.exports = (grunt) ->
             'sass'
             'buildIndex'
             'copy'
+            'build_gh_pages'
         ]
 
     # Define default task.
