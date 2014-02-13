@@ -7,4 +7,4 @@
 
 Brace yourselves, [Flexbox](http://philipwalton.github.io/solved-by-flexbox/) is coming
 
-by [ryen margherrtuits](https://github.com/ryanmargheriti)
+<small>by [ryen margherrtuits](https://github.com/ryanmargheriti)</small>
