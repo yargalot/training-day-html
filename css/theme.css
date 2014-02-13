@@ -34,8 +34,8 @@ html * {
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: white;
-  background-color: white; }
+  background: #fdf6e3;
+  background-color: #fdf6e3; }
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -59,7 +59,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #0c5e97;
+  color: #586e75;
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
@@ -189,7 +189,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #0c5e97;
+  color: #0e7abf;
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
@@ -289,3 +289,12 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #268bd2; }
+
+.block-logo {
+  width: 157px;
+  height: 61px;
+  background-size: 157px 61px;
+  background-image: url(/images/logo-square.svg);
+  position: absolute;
+  left: 25px;
+  bottom: 25px; }

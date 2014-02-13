@@ -27,10 +27,13 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 // ---------------------------------------------
+@import "../../bower_components/reveal.js/css/theme/source/solarized";
 
 // Override theme settings ---------------------
 //$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
 // Other options include e.g.
+  $backgroundColor: #fff;
+  $headingColor: #0E7ABF;
 // $mainFont: 'Open Sans', sans-serif;
 // $linkColor: #ed1dff;
 // $linkColorHover: $linkColor;
@@ -44,17 +47,32 @@
 // ---------------------------------------------
 
 // Background generator ------------------------
-@mixin bodyBackground() {
-  @include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
-}
+// @mixin bodyBackground() {
+//   @include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
+// }
 // ---------------------------------------------
 
 // Theme template ------------------------------
 
-@import "../../bower_components/reveal.js/css/theme/source/solarized";
 
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
 
 // See ../../bower_components/reveal.js/css/theme/README.md
 // for further explanations on how reveal.js themes work.
+
+.block-logo {
+  
+  $width: 314px /2;
+  $height: 122px /2;
+
+  width: $width;
+  height: $height;
+
+  background-size:$width $height;
+  background-image:url(/images/logo-square.svg);
+
+  position:absolute;
+  left:25px;
+  bottom:25px;
+}
