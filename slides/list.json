@@ -5,8 +5,7 @@
       "html4to5-new.md",
       "html4to5-tags.md",
       "html4to5-inputs.md",
-      "html4to5-other.md",
-      "html4to5-done.md"
+      "html4to5-other.md"
     ],
     "typography.md",
     "inputs.md",
@@ -31,7 +30,8 @@
     [
       "tools.md",
       "tools-preprocess.md",
-      "tools-preprocess-example.md"
+      "tools-preprocess-example.md",
+      "tools-preprocess-markdown.md"
     ],
     "future.md"
 ]
