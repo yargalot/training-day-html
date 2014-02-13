@@ -9,5 +9,3 @@ An API for **printing** the document (print()).
 The **Window** object has been defined.
 
 **Fullscreen** API
-
-HTML [API](https://github.com/AurelioDeRosa/HTML5-API-demos)
