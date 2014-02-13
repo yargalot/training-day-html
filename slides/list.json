@@ -1,0 +1,37 @@
+[
+    "index.md",
+    [
+      "html4to5.md",
+      "html4to5-new.md",
+      "html4to5-tags.md",
+      "html4to5-inputs.md",
+      "html4to5-other.md",
+      "html4to5-done.md"
+    ],
+    "typography.md",
+    "inputs.md",
+    "attributes.md",
+    [
+      "apis.md",
+      "apis-cont.md",
+      "apis-resources.md"
+    ],
+    "deprecated.md",
+    [
+      "degredation.md",
+      "degredation-example.md",
+      "degredation-css.md"
+    ],
+    "accessibility.md",
+    [
+      "semantics.md",
+      "semantics-do.md",
+      "semantics-dont.md"
+    ],
+    [
+      "tools.md",
+      "tools-preprocess.md",
+      "tools-preprocess-example.md"
+    ],
+    "future.md"
+]
